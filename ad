@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ $# -eq 2 ]
+then
+ffmpeg -i "$1" -vn -acodec copy "$2"
+else 
+echo "use: ad <url> <filename>"
+fi
