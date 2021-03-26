@@ -6,3 +6,5 @@ You should have `ffmpeg` installed.
 Make the script runnable with `chmod +x ad`.
 
 Optionall you can put it in a `$PATH` folder to have it at your disposal at all times.
+
+Use: `ad <url> <filename>`
